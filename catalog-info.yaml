@@ -1,10 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
-metadata:
-  annotations:
-    backstage.io/kubernetes-id: my-kubernetes-component
+metadata: 
   name: my-kubernetes-component
-spec:
-  lifecycle: production
-  owner: my-team
+  description: my kubernetes component
+  tags: 
+    - nodejs
+  annotations: 
+    'backstage.io/kubernetes-id': my-kubernetes-component
+spec: 
   type: service
+  lifecycle: production
+  owner: guest
