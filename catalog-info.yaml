@@ -1,13 +1,10 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata: 
-  name: my-kubernetes-component
-  description: my kubernetes component
-  tags: 
-    - nodejs
+  name: kafka
+  description: something
   annotations: 
-    'backstage.io/kubernetes-label-selector': name=strimzi-cluster-operator
-spec: 
+    'backstage.io/kubernetes-label-selector': kafka
   type: service
   lifecycle: production
   owner: user:default/guest
