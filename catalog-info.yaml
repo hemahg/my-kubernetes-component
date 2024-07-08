@@ -1,10 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata: 
-  name: kafka
-  description: something
+  name: my-kubernetes-component
+  description: my kubernetes component
+  tags: 
+    - nodejs
   annotations: 
     'backstage.io/kubernetes-id': kafka
+spec: 
   type: service
   lifecycle: production
   owner: user:default/guest
