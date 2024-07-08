@@ -4,7 +4,7 @@ metadata:
   name: kafka
   description: something
   annotations: 
-    'backstage.io/kubernetes-label-selector': kafka
+    'backstage.io/kubernetes-id': kafka
   type: service
   lifecycle: production
   owner: user:default/guest
