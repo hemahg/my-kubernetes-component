@@ -6,7 +6,7 @@ metadata:
   tags: 
     - nodejs
   annotations: 
-    'backstage.io/kubernetes-id': name=strimzi-cluster-operator
+    'backstage.io/kubernetes-label-selector': name=strimzi-cluster-operator
 spec: 
   type: service
   lifecycle: production
