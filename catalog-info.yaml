@@ -6,7 +6,9 @@ metadata:
   tags: 
     - nodejs
   annotations: 
-    'backstage.io/kubernetes-label-selector': 'app=my-kubernetes-component'
+    'backstage.io/kubernetes-id': 'my-kubernetes-component'
+    'backstage.io/kubernetes-namespace': 'default'
+    
 spec: 
   type: service
   lifecycle: production
