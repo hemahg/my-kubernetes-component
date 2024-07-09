@@ -7,4 +7,3 @@ metadata:
     - nodejs
   annotations: 
     'backstage.io/kubernetes-id': 'my-kubernetes-component'
-    'backstage.io/kubernetes-namespace': 'default'
